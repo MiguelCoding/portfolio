@@ -69,6 +69,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-### SETUP 
-npm install aos
+### SETUP ICONS
+npm install aos,
 npm install react-icons
+
+### AMPLIFY FIXES
+Amplify autodeploys a new branch upon changes detected at the master branch(that was utilized as original setup). any issues that arise can be troubleshoot with amplify logs.
+## amplify issue/fix with PDF download and other files not in regex.
+https://stackoverflow.com/questions/68507437/downloading-a-pdf-file-in-reactjs-works-locally-but-doesnt-work-on-amazon-ampli
