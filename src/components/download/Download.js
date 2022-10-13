@@ -5,15 +5,22 @@ import { FaFilePdf } from "react-icons/fa"
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-import resumeSdev from "../../assets/MAR-Resume-SDEV.pdf";
-
-
 const Download = () => {
   useEffect(() => {
     AOS.init({
       duration: 1000,
     });
   }, []);
+  const onButtonClick = () => {
+    fetch('MAR-Resume-SDEV.pdf').then(response => {
+        response.blob().then(blob => {
+            const fileURL = window.URL.createObjectURL(blob);
+            let alink = document.createElement('a');
+            alink.href = fileURL;
+            alink.download = 'MAR-Resume-SDEV.pdf';
+            alink.click();
+        })
+    })}
   return (
     <section id="download">
       <div className="container download" data-aos="fade-up">
@@ -23,7 +30,7 @@ const Download = () => {
         </p>
         <IconContext.Provider value={{ size: "15" }}>
           <div className="download-icons">
-            <a href={resumeSdev} download="my resume">
+            <a  onClick={onButtonClick}>
               <div className="download-icon">
                 <FaFilePdf /> <p>Resume</p> 
               </div>
