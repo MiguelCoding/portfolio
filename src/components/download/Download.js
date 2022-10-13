@@ -5,7 +5,7 @@ import { FaFilePdf } from "react-icons/fa"
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-import resumeSdev from "../../assets/MAR-Resume-SDEV.pdf";
+import resumeSdev from "https://github.com/MiguelCoding/portfolio/blob/master/src/assets/MAR-Resume-SDEV.pdf";
 
 
 const Download = () => {
