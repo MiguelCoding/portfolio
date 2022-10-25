@@ -32,7 +32,7 @@ const Header = () => {
         </div>
       </div>
       <div className="floating-icon">
-        <a href="#features">
+        <a href="#projects">
           <BsMouse color="#fff" size={25} className="mouse" />
         </a>
       </div>
