@@ -35,7 +35,7 @@ const Footer = () => {
               <FaMapMarkerAlt /> &nbsp; Address: MA, United States.
             </p>
             <p>
-              <FaPhoneAlt /> &nbsp; Phone: +1 904 240 6265.
+              <FaPhoneAlt /> &nbsp; Phone: 904 240 6265.
             </p>
             <p>
               <FaEnvelope /> &nbsp; Email: miguelruizjax@gmail.com
