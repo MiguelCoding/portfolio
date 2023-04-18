@@ -37,6 +37,9 @@ const Navbar = () => {
           <li>
             <a href="#social">Github</a>
           </li>
+          <li>
+            <a href="#login">Login</a>
+          </li>
         </ul>
       </menu>
       <div className="menu-icons" onClick={toggleMenu}>

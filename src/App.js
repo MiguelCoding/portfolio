@@ -7,6 +7,7 @@ import {
   Download,
   Socials,
   Footer,
+  Login,
 } from "./components";
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <Download />
       <Socials />
       <Footer />
+      <Login />
     </>
   );
 }
