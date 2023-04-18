@@ -1,5 +1,6 @@
 #header {
-  position: relative;
+  position: sticky;
+  display: stretch;
 }
 .header {
   display: flex;
@@ -42,7 +43,7 @@ h1 span:nth-child(3) {
 .header-left p {
   margin: 3rem 0;
   color: var(--color-white);
-  width: 70%;
+  width: 80%;
 }
 
 .header-right img {

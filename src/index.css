@@ -22,9 +22,15 @@
 html {
   font-size: 10px;
 }
-
+/*to remove the white space at the right side hide all the overflow in X*/
+/* to find the element taht is causing the issue. use the chrome react dev tools*/
 body {
   font-family: "Poppins", sans-serif;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 
 section {
@@ -33,7 +39,7 @@ section {
 }
 
 .container {
-  max-width: 1000px;
+  max-width: 2000px;
   margin: 0 auto;
   padding: 0 20px;
 }
