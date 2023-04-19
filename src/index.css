@@ -11,9 +11,6 @@
   --color-grey: #eae6eb;
   --box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
   overflow-x: hidden;
 }
 
@@ -31,11 +28,7 @@ html {
 /* to find the element taht is causing the issue. use the chrome react dev tools*/
 body {
   font-family: "Poppins", sans-serif;
-  height: 100%;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  overflow-x: hidden;
+  
 }
 
 section {
