@@ -40,6 +40,9 @@ const Navbar = () => {
           <li>
             <a href="#login">Login</a>
           </li>
+          <li>
+            <a href="/projectsExtended">test</a>
+          </li>
         </ul>
       </menu>
       <div className="menu-icons" onClick={toggleMenu}>

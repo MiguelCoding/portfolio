@@ -2,6 +2,7 @@ import { FaGithub } from "react-icons/fa";
 import {FiEyeOff} from "react-icons/fi";
 import {FcAndroidOs} from "react-icons/fc";
 
+
 export const ProjectList = [
   {
     id: 1,
@@ -15,7 +16,7 @@ export const ProjectList = [
     icon: <FcAndroidOs color="#0a1930" size={22} />,
     heading: "Android development",
     text: "Hangman game developed for a senior advanced mobile development course at Oregon State University.",
-    webAddress: "https://www.google.com/maps",
+    webAddress: "/projectsExtended",
   },
   {
     id: 3,
