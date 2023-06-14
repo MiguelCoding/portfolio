@@ -35,6 +35,7 @@ const Projects = () => {
                 icon={project.icon}
                 heading={project.heading}
                 text={project.text}
+                webAddress={project.webAddress}
               />
             ))}
           </div>
