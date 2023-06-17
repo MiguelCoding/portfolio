@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter as Router, Switch, Route, Routes } from "react-router-dom";
+import { BrowserRouter,Router, Route, Routes } from "react-router-dom";
 
 
 import {
@@ -11,24 +11,23 @@ import {
   Footer,
   Login,
   ProjectsExtended,
-} from "./components";
+  Home,
+} from "./components/index.js";
 // anything added below only expands the webpage such that its just longer. 
 // have to add a way to jump between pages that arent the main page.
 function App() {
   return (
-    <>
-      <header className="header-bg">
-        <Navbar />
-        <Header />
-      </header>
-      <Projects data-aos="fade-up" />
-      <Download />
-      <Socials />
-      <Footer />
-      <Login />
-      <ProjectsExtended />
-      <Routes path="/projectsExtended" element={ProjectsExtended}></Routes>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Home/>}></Route>
+        <Route path='/home' element={<Home/>}></Route>
+        {/* <Route path='/' element={<Test />}></Route> */}
+        <Route path='/projectsExtended' element={<ProjectsExtended/>}></Route>
+        <Route path='/login' element={<Login/>}></Route>
+        
+        
+      </Routes>
+    </BrowserRouter>
   );
 }
 

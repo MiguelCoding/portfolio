@@ -38,10 +38,10 @@ const Navbar = () => {
             <a href="#social">Github</a>
           </li>
           <li>
-            <a href="#login">Login</a>
+            <a href="/login">Login</a>
           </li>
           <li>
-            <a href="/projectsExtended">test</a>
+            <a href="/projectsExtended">Testing-ground</a>
           </li>
         </ul>
       </menu>
