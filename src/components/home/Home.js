@@ -7,8 +7,8 @@ import {
   Download,
   Socials,
   Footer,
-  Login,
-  ProjectsExtended,
+  // Login,
+  // ProjectsExtended,
 } from "../index.js";
 // anything added below only expands the webpage such that its just longer. 
 // have to add a way to jump between pages that arent the main page.

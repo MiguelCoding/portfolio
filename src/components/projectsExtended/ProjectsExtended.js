@@ -3,7 +3,7 @@
 import React, { useEffect } from "react";
 import './ProjectsExtended.css';
 import { FaGithub } from "react-icons/fa";
-import {FiEyeOff} from "react-icons/fi";
+//import {FiEyeOff} from "react-icons/fi";
 import {FcAndroidOs} from "react-icons/fc";
 
 import AOS from "aos";

@@ -77,3 +77,18 @@ npm install react-icons
 Amplify autodeploys a new branch upon changes detected at the master branch(that was utilized as original setup). any issues that arise can be troubleshoot with amplify logs.
 ## amplify issue/fix with PDF download and other files not in regex.
 https://stackoverflow.com/questions/68507437/downloading-a-pdf-file-in-reactjs-works-locally-but-doesnt-work-on-amazon-ampli
+
+### Tensorflow & Parcel hosting projects
+Browser setup
+There are two recommended ways to use TensorFlow.js in a browser-based project:
+
+Use a script tag.
+
+Install from NPM and use a build tool like Parcel, webpack, or Rollup.
+
+If you're new to web development, or you haven't used JavaScript build tools before, you might want to try the script tag approach first. If you usually bundle or process your web assets, or you plan to write larger applications, you should consider using build tools.
+
+
+https://www.tensorflow.org/js/tutorials/setup#browser_setup
+npm install @tensorflow/tfjs
+npm install --save-dev parcel

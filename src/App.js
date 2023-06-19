@@ -1,14 +1,14 @@
 import './App.css';
-import { BrowserRouter,Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 
 import {
-  Navbar,
-  Header,
-  Projects,
-  Download,
-  Socials,
-  Footer,
+  // Navbar,
+  // Header,
+  // Projects,
+  // Download,
+  // Socials,
+  // Footer,
   Login,
   ProjectsExtended,
   Home,
@@ -24,8 +24,6 @@ function App() {
         {/* <Route path='/' element={<Test />}></Route> */}
         <Route path='/projectsExtended' element={<ProjectsExtended/>}></Route>
         <Route path='/login' element={<Login/>}></Route>
-        
-        
       </Routes>
     </BrowserRouter>
   );
