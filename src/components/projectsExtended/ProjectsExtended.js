@@ -39,7 +39,7 @@ const ProjectsExtended = () => {
                 <div className="project-text">
                 <h3>Android development</h3>
                 <p>
-                    Fill out the blanks here for all the possible projects that may arise in the future.
+                    testing values.
                 </p>
             </div>
 
