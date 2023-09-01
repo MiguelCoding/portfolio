@@ -25,7 +25,7 @@ function  ProjectsExtended()
   
     const detect = async (net) => {
       // Check data is available
-      console.log(webcamRef.current);
+      //console.log(webcamRef.current);
       if (
         typeof webcamRef.current !== "undefined" &&
         webcamRef.current !== null &&
