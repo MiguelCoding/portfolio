@@ -92,3 +92,9 @@ If you're new to web development, or you haven't used JavaScript build tools bef
 https://www.tensorflow.org/js/tutorials/setup#browser_setup
 npm install @tensorflow/tfjs
 npm install --save-dev parcel
+
+- If yarn starts giving any lip after installation on windows. use the following line of code
+
+#### Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
+
+on the command line to force it to work 

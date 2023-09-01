@@ -12,7 +12,7 @@ import {
   Login,
   ProjectsExtended,
   Home,
-} from "./components/index.js";
+} from "./components/HomeIndex.js";
 // anything added below only expands the webpage such that its just longer. 
 // have to add a way to jump between pages that arent the main page.
 function App() {
