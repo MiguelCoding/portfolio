@@ -98,3 +98,30 @@ npm install --save-dev parcel
 #### Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
 
 on the command line to force it to work 
+
+#### Adding Porfolio to docker image.
+- add Dockerile to root. AKA where .gitignore is for this portfolio
+- make file .dockerignore and add node_modules
+- in the Docker file add the following:
+    FROM node:18.17.1-alpine
+
+    WORKDIR /app
+
+    COPY package.json .
+
+    RUN npm install
+
+    COPY . .
+
+    EXPOSE 3000
+
+    CMD ["npm", "start"]
+
+- in the root directory run: docker build .
+
+-- check for docker image to be running with the following in terminal: docker images
+
+-- to get the docker to run either use the application  or in te terminal where the docker file is located use: docker run -p [port:port] [IMAGE ID]  
+that should be all that is needed to run the docker image from local. 
+
+#### Adding docker image.
