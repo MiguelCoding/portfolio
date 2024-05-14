@@ -124,4 +124,6 @@ on the command line to force it to work
 -- to get the docker to run either use the application  or in te terminal where the docker file is located use: docker run -p [port:port] [IMAGE ID]  
 that should be all that is needed to run the docker image from local. 
 
-#### Adding docker image.
+#### Adding docker image to AWS AMPLIFY.
+AWS-AMPLIFY loads the application without the need to run the docker image.
+It is assumed that this is because of the use of npm start.
