@@ -35,6 +35,15 @@ section#download {
   margin: 2rem;
 }
 
+.download-link {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  color: inherit;
+  font: inherit;
+}
+
 .download-icon {
   margin: 1rem 2rem;
   border: 2px solid #fff;
