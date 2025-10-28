@@ -30,11 +30,11 @@ const Download = () => {
         </p>
         <IconContext.Provider value={{ size: "15" }}>
           <div className="download-icons">
-            <a  onClick={onButtonClick}>
+            <button onClick={onButtonClick} className="download-link">
               <div className="download-icon">
                 <FaFilePdf /> <p>Resume</p> 
               </div>
-            </a>
+            </button>
             <div className="download-icon">
               <FaFilePdf /> <p>CV</p>
             </div>
