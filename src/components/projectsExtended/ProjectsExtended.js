@@ -1,4 +1,4 @@
-// figure out if this is nessesary or not. perhaps it can be put in a function and hoisted instead.
+// figure out if this is necessary or not. perhaps it can be put in a function and hoisted instead.
 // Import dependencies
 import React, { useRef, useEffect } from "react";
 import './ProjectsExtended.css';
@@ -49,14 +49,25 @@ function  ProjectsExtended()
       // Main function
       const runCoco = async () => {
         const net = await cocossd.load();
-        console.log("COCOSSD LOaded");
+        console.log("COCOSSD Loaded");
         //  Loop and detect hands
-        setInterval(() => {
+        const intervalId = setInterval(() => {
           detect(net);
         }, 10);
+        return intervalId;
       };
 
-      runCoco();
+      let intervalId;
+      runCoco().then(id => {
+        intervalId = id;
+      });
+
+      // Cleanup function to clear interval on unmount
+      return () => {
+        if (intervalId) {
+          clearInterval(intervalId);
+        }
+      };
     }, []);
   
     return (
